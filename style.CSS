@@ -75,7 +75,7 @@ nav a{
     border-color:white;
     background-color:rgb(0, 140, 255);
  }
- 
+
 aside figure{
     border-style: hidden;
     padding: 10px 30px;
@@ -106,6 +106,90 @@ aside figure{
     text-align: center;
 
  }
+
+@media screen and (max-width: 600px) {
+  
+main{ 
+   flex-direction: column; 
+  }
+
+
+#wrapper{
+   padding: 0;
+   background-color: none;
+}
+
+nav { 
+   border-style: hidden;
+   padding: 5px;
+   margin: 0;
+   height: fit-content;
+   background-color: rgb(0, 140, 255);
+   text-align: center;
+   font-size: 20px;
+   text-size-adjust: 150%;
+}
+
+h1{
+   color: rgb(255, 187, 0);
+   padding-bottom: 20px;
+   padding-top: 20px;
+   
+   
+ }
+
+article{
+   padding: 5px;
+   padding-bottom: 20px;
+   text-align: justify;
+   text-size-adjust: 170%;
+    }
+
+p{
+  text-align:left;
+  background-color: whitesmoke;
+  text-size-adjust: 150%;
+   }
+   
+   footer {
+      font-size: 20px;
+      color: white;
+      background-color: rgb(0, 140, 255);
+      text-align: center;
+  
+   }
+  
+   header p{
+      font-size:40px;
+      color:white;
+      text-align: center;
+      background-color: rgb(0, 174, 255) ; 
+   }
+      
+   }
+
+   aside figure {
+      border-style: hidden;
+      padding: 10px 30px;
+      background-color:rgb(0, 140, 255);
+      align-items: center;
+      display:flex;
+      flex-direction: column; 
+  }
+
+  aside p{
+   font-size: 20px;
+   color: white;
+   text-align: justify;
+   background-color:rgb(0, 140, 255);
+   padding bottom: 1px;
+
+}
+
+
+
+
+  
 
 
 
